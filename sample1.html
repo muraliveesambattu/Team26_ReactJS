@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // Approach 1
+        var person = {};
+
+        // Approach 2
+        function Student(fname, lname) {
+            this.fname = fname;
+            this.lname = lname;
+        }
+
+        var std1 = new Student();
+
+        // Approach 3 
+
+        var user = new Object({ fname: "Ram" })
+
+        class Common {
+            constructor() {
+                this.companyName = "VMR ";
+                this.companyCity = "Chittoor";
+                this.state = "Andhra"
+            }
+        }
+        class Employee extends Common {
+            constructor(empName, empId) {
+                super();
+                this.empName = empName;
+                this.empId = empId;
+            }
+        }
+
+        var emp1 = new Employee("RR", 11)
+        var emp2 = new Employee("VVV", 22)
+        var emp3 = new Employee("CC", 44)
+
+        console.log(person);
+        console.log(std1);
+        console.log(user);
+        console.log(emp1)
+        console.log(emp2)
+        console.log(emp3)
+    </script>
+
+</body>
+
+</html>
