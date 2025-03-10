@@ -2,6 +2,7 @@ import MuraliClassComp from "./Components/MuraliClass";
 import RahulClass from "./Components/RahulClass";
 import Rahul from "./Rahul";
 import Murali from './Murali'
+import Student from "./Components/Student";
 function App() {
   return (
     <div>
@@ -10,7 +11,8 @@ function App() {
       {/*<Rahul/> */}
       {/* <MuraliClassComp /> */}
       {/* <RahulClass /> */}
-      <Murali />
+      {/* <Murali /> */}
+      <Student/>
     </div>
   );
 }
