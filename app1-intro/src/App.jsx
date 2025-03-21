@@ -5,6 +5,7 @@ import Murali from './Murali'
 import Student from "./Components/Student";
 import CRUD from "./Components/CRUD";
 import Employees from "./Components/Employees";
+import CRUD_Multiple_Components from "./Components/CRUD_Multiple_Components";
 function App() {
   return (
     <div>
@@ -16,7 +17,8 @@ function App() {
       {/* <Murali /> */}
       {/* <Student/> */}
       {/* <CRUD/> */}
-      <Employees/>
+      {/* <Employees/> */}
+      <CRUD_Multiple_Components/>
     </div>
   );
 }
