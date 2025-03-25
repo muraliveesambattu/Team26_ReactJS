@@ -1,8 +1,9 @@
 1. Render Props
 2. HOC - Higher Order Components
-3. React Router
+3. Render Props
+4. React Router
     Lazy Loading
     Nested Routes
 
-4. Redux State management
-5. Axios 
+5. Redux State management
+6. Axios 
