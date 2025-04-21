@@ -7,10 +7,22 @@
       "id": 1
     },
     {
-      "fname": "updated User 1",
-      "lname": "updated lnmae",
+      "fname": "User 1",
+      "lname": "lnmae",
       "email": "updated@gamil.com",
       "id": 3
+    },
+    {
+      "fname": "Ram",
+      "lname": "Ravi",
+      "email": "ram@gmail.com",
+      "id": 4
+    },
+    {
+      "fname": "Kiran",
+      "lname": "Kumar",
+      "email": "kiran@gmail.com",
+      "id": 5
     }
   ]
 }
